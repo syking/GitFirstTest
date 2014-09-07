@@ -13,5 +13,7 @@ namespace TravelWeb.Models
             : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<TravelWeb.Models.Package> Packages { get; set; }
     }
 }
